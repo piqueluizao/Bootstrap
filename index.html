@@ -16,9 +16,9 @@
     />
   </head>
   <body>
-    <!--Menu-->
+    <!--NavBar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img
           src="assets/img/book.gif"
           width="30"
@@ -43,7 +43,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
@@ -64,7 +64,7 @@
               <a class="dropdown-item" href="#">Literartura Estrangeira</a>
               <a class="dropdown-item" href="#">Literatura Nacional</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Contato</a>
+              <a class="dropdown-item" href="contato.html">Contato</a>
             </div>
           </li>
         </ul>
@@ -81,63 +81,201 @@
         </form>
       </div>
     </nav>
-    <!--/Menu-->
-    <!--Grid-->
-    <div class="container">
-      <div class="row mt-5 d-flex justify-content-center">
-        <div class="col-md-4 p-0">
-          <div class="bg-success">4 colunas</div>
+    <!--/NavBar-->
+
+    <!--Carousel-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://i.zst.com.br/thumbs/12/f/34/1456400331.jpg"
+            class="d-block w-100"
+            alt="Aristóteles e Dante Descobrem os Segredos do Universo"
+          />
         </div>
-        <div class="col-md-4 p-0">
-          <div class="bg-danger">4 colunas</div>
+        <div class="carousel-item">
+          <img
+            src="https://www.livrosepessoas.com/wp-content/uploads/2019/01/TCD-destaque-760x450_c.jpg"
+            class="d-block w-100"
+            alt="Textos Cruéis Demais para Serem Lidos Rapidamente"
+          />
         </div>
-        <div class="col-md-4 p-0">
-          <div class="bg-warning">4 colunas</div>
+        <div class="carousel-item">
+          <img
+            src="https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2015/10/tokyoghoul1-capa.jpg?quality=99&strip=all"
+            class="d-block w-100"
+            alt="Tokyo Ghoul 1"
+          />
         </div>
       </div>
-      <div class="row mt-5 d-flex justify-content-center">
-        <div class="col-md-6 p-0">
-          <div class="bg-success">6 colunas</div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-target="#carouselExampleIndicators"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </button>
+    </div>
+    <!--Carousel-->
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-info">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">
+          This is a modified jumbotron that occupies the entire horizontal space
+          of its parent.
+        </p>
+      </div>
+    </div>
+    <!--/Jumbotron-->
+
+    <!--Cards-->
+    <div class="container">
+    <div class="card-deck">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
         </div>
-        <div class="col-md-6 p-0">
-          <div class="bg-danger">6 colunas</div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This card has supporting text below as a natural lead-in to
+            additional content.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This card has even longer content than the
+            first to show that equal height action.
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
     </div>
-    <!--/Grid-->
-    <!--Redes Sociais-->
+    <!--/Cards-->
+    <!--Texto e vídeo-->
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Texto teste</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab
+          nisi nemo! Sequi deleniti ullam aliquid. Obcaecati, accusantium nam
+          atque molestiae recusandae dolorem, quaerat assumenda sit
+          reprehenderit earum, optio iusto?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem
+          error aliquid, quis quas iste rem neque delectus ad perspiciatis
+          aliquam quam cupiditate nisi quos facilis! Consequatur cumque
+          reprehenderit labore?
+        </p>
+      </div>
+    
+      <div class="col-md-6">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/GFuNTV-hi9M"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!--/Texto e vídeo-->
+    <!--Rodapé-->
     <hr />
     <footer>
-      <div>
-        <a href="https://www.linkedin.com/" target="_blank">
-          <img
-            class="tm-social"
-            src="assets/img/linkedin.png"
-            alt="Linkedin Icon"
-          />
-        </a>
-        <a href="https://www.facebook.com/" target="_blank">
-          <img
-            class="tm-social"
-            src="assets/img/facebook.png"
-            alt="Facebook Icon"
-          />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img
-            class="tm-social"
-            src="assets/img/instagram.png"
-            alt="Instagram Icon"
-          />
-        </a>
-        <a href="https://www.gmail.com/" target="_blank">
-          <img class="tm-social" src="assets/img/gmail.png" alt="Gmail Icon" />
-        </a>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+           <!--Redes Sociais-->
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img
+              class="tm-social"
+              src="assets/img/linkedin.png"
+              alt="Linkedin Icon"
+            />
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img
+              class="tm-social"
+              src="assets/img/facebook.png"
+              alt="Facebook Icon"
+            />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              class="tm-social"
+              src="assets/img/instagram.png"
+              alt="Instagram Icon"
+            />
+          </a>
+          <a href="https://www.gmail.com/" target="_blank">
+            <img class="tm-social" src="assets/img/gmail.png" alt="Gmail Icon" />
+          </a>
+        </div>
       </div>
+        
       <!--/Redes Sociais-->
-
-      <p>Todos os direitos reservados: Luiza Souza &copy;</p>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">Todos os direitos reservados: Luiza Souza &copy;</p>
+        </div>
+      </div>
+      
+      
     </footer>
+    <!--/Rodapé-->
+  </div>
+
+   
+    
   </body>
   <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
   <script
